@@ -119,14 +119,14 @@ class Student {
         this.nilaiUTS = nilaiUTS;
         this.nilaiUAS = nilaiUAS;
     }
-
+    
     public void hitungNilaiAkhir() {
         if (this.alfa > 5) {
             this.nilaiAkhir = 0d;
+        }else {
+            this.nilaiAkhir = (this.nilaiTugas * 0.2) + (this.nilaiKeaktifan * 0.1) + (this.nilaiUTS * 0.3) + (this.nilaiUAS * 0.4);
+            this.nilaiAkhir -= (this.alfa * 5);
         }
-
-        this.nilaiAkhir =  (this.nilaiTugas * 0.2) + (this.nilaiKeaktifan * 0.1) + (this.nilaiUTS * 0.3) + (this.nilaiUAS * 0.4);
-        this.nilaiAkhir -= (this.alfa * 5);
     }
 
     public float cekIPK() {
