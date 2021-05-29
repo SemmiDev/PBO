@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb4f8a91-a181-4d02-a873-29d04b8d216a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PBO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PBO.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sammidev/tugas6/.Campus.java.swp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,16 +210,9 @@
       <recent name="$PROJECT_DIR$/src/com/sammidev/tugas5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Campus">
+  <component name="RunManager" selected="Application.NIM">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sammidev.tugas5.App" />
-      <module name="PBO" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="App (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sammidev.testing.App" />
       <module name="PBO" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -249,6 +239,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NIM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sammidev.tugas7.NIM" />
+      <module name="PBO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
       <method v="2">
@@ -256,19 +253,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.App (3)" />
       <item itemvalue="Application.App" />
       <item itemvalue="Application.App (1)" />
       <item itemvalue="Application.App (4)" />
       <item itemvalue="Application.Campus" />
+      <item itemvalue="Application.NIM" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NIM" />
         <item itemvalue="Application.Campus" />
         <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.App (4)" />
         <item itemvalue="Application.App" />
-        <item itemvalue="Application.App (3)" />
       </list>
     </recent_temporary>
   </component>
